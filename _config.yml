@@ -1,0 +1,25 @@
+# Site settings
+title: Rocky Mountain Instrumental Music Boosters
+header-img: img/home-bg.jpg
+email: boosters@rmhsmusic.org
+copyright_name: Rocky Mountain Instrumental Music Boosters
+description: "Supporting the music programs for Rocky Mountain High School in Meridian, Idaho"
+baseurl: ""
+url: "http://www.rmhsmusic.org"
+twitter_username: 
+github_username:  
+facebook_username:  RMHSGrizBand
+email_username:  boosters@rmhsmusic.org
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+google_tracking_id: UA-85033132-1
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","rmhs.bbprojectd","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
